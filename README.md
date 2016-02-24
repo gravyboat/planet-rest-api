@@ -24,11 +24,10 @@ GET: `curl http://127.0.0.1:5000/api/v1.0/users/bbrash`
 
 POST: `curl -H "Content-Type: application/json" -v -X POST -d '{"first_name": "roger", "last_name": "test", "userid": "rtest", "groups": ["users"]}' http://127.0.0.1:5000/api/v1.0/users/`
 
-DELETE: `curl -v -X DELETE http://127.0.0.1:5000/api/v1.0/users/bbrash`
-
 PUT: `curl -H "Content-Type: application/json" -v -X PUT -d '{"first_name": "roger", "userid": "rbrash"}' http://127.0.0.1:5000/api/v1.0/users/bbrash`
 Note that groups used in a users PUT command will override all groups.
 
+DELETE: `curl -v -X DELETE http://127.0.0.1:5000/api/v1.0/users/bbrash`
 
 ##### /groups:
 
