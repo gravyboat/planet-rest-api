@@ -2,9 +2,9 @@
 
 A simple rest api for a coding exercise.
 
-## Installation:
+## Installation
 
-#### Manual git clone
+#### Manual git clone:
 
 Clone the repo: `git clone https://github.com/gravyboat/planet-rest-api.git`
 
@@ -16,7 +16,7 @@ start the server: `python planet-rest-api/api.py`
 
 Requests can now be made against the system as described in the Example Usage.
 
-## Example Usage:
+## Example Usage
 
 ##### /users:
 
@@ -37,7 +37,7 @@ POST: Not implemented, group work should be associated with a user.
 PUT: Not implemented, group work should be associated with a user.
 DELETE: Not implemented, group work should be assocated with a user.
 
-## Sources:
+## Sources
 
 Uses https://github.com/miguelgrinberg/REST-tutorial/blob/master/rest-server-v2.py
 as a base, thanks to Miguel.
