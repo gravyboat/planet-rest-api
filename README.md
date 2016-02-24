@@ -14,7 +14,7 @@ Install requirements: `pip install -r requirements.txt`
 
 start the server: `python planet-rest-api/api.py`
 
-Requests can now be made against the system as described in the [Example Usage](#example usage)
+Requests can now be made against the system as described in the Example Usage.
 
 ## Example Usage:
 
