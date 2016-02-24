@@ -33,8 +33,11 @@ Note that groups used in a users PUT command will override all groups.
 ##### /groups:
 
 GET: `curl http://127.0.0.1:5000/api/v1.0/groups/admins`
+
 POST: Not implemented, group work should be associated with a user.
+
 PUT: Not implemented, group work should be associated with a user.
+
 DELETE: Not implemented, group work should be assocated with a user.
 
 ## Sources
