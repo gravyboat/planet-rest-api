@@ -11,7 +11,7 @@ Create the virtualenv within the planet-rest-api directory: `virtualenv ./env; s
 Install requirements: `pip install -r requirements.txt`
 start the server: `python planet-rest-api/api.py`
 
-Requests can now be made against the system as described in the [Example Usage](#Example Usage)
+Requests can now be made against the system as described in the [Example Usage](#example usage)
 
 ## Example Usage:
 
@@ -30,3 +30,8 @@ GET: `curl http://127.0.0.1:5000/api/v1.0/groups/admins`
 POST: Not implemented, group work should be associated with a user.
 PUT: Not implemented, group work should be associated with a user.
 DELETE: Not implemented, group work should be assocated with a user.
+
+## Sources:
+
+Uses https://github.com/miguelgrinberg/REST-tutorial/blob/master/rest-server-v2.py
+as a base, thanks to Miguel.
